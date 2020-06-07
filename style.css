@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 10px;
+    font-size: 20px;
+    font-family: sans-serif
+    
+}
+
+.header {
+    background-color: dodgerblue;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+#main {
+    display: flex; 
+}
+
+.main1 {
+    flex: 2;
+    background-color: skyblue;
+    order: 2;
+    margin-right: 10px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.navBar {
+    flex: 1;
+    background-color: skyblue;
+    order: 1;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBar {
+    flex: 1;
+    background-color: skyblue;
+    order: 3;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: dodgerblue;
+    height: 70px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+
+}
